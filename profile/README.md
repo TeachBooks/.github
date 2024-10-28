@@ -22,8 +22,8 @@ Awesome! To kickstart our collaboration, we've created an overview of the stuff 
   - Tooling to improve the student experience
   - Books (some are mirrored, those are actually located on GitLab but are mirrored to GitHub becuase of the extensive tooling)
   - Sandbox and some special repos used for testing
+- https://github.com/orgs/TeachBooks/discussions, discussions, where we discuss stuff which is very general, unrelated to specific project or not yet grown into a mature project. Start a discussion here to reach out to the community!
 - https://github.com/orgs/TeachBooks/projects, our projects, all the stuff we're planning or actually working on.
-- https://github.com/orgs/TeachBooks/discussions, discussions, where we discuss stuff which is very general, unrelated to specific project or not yet grown into a mature project
 - https://gitlab.tudelft.nl/interactivetextbooks-citg, our GitLab group with some books which were never transferred to GitHub
 - [Zenodo TeachBooks organization](https://zenodo.org/communities/teachbooks/records?q=&l=list&p=1&s=10&sort=newest), a Zenodo organization containing the presentation of public talks
 
