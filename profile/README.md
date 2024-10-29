@@ -11,6 +11,8 @@ This organizations contains repositories to support and deploy various online in
 We're still learning how to organise this, so feel free to help us! Contact Robert Lanzafame or Tom van Woudenberg via TeachBooks@tudelft.nl for additional information.
 
 ## Do you want to contribute?!
+Do you have skills on any of: python, git, github actions, shell commands, HTML, CSS, JavaScript latex, markdown, MyST, webservers, Wordpress?
+
 Awesome! To kickstart our collaboration, we've created an overview of the stuff we have:
 - https://teachbooks.tudelft.nl/, our website, which gives an overview of what we've to offer. Its raw HTML source files are actually on GitLab: https://gitlab.tudelft.nl/interactivetextbooks-citg/homepage
 - https://jupyterbook.org/, the system we're using for our books. It takes .md and .ipynb files and converts them into an online book (at the moment using Sphinx, another packages)
