@@ -17,7 +17,7 @@ Awesome! To kickstart our collaboration, we've created an overview of the stuff 
 - https://teachbooks.tudelft.nl/, our website, which gives an overview of what we've to offer. Its raw HTML source files are actually on GitLab: https://gitlab.tudelft.nl/interactivetextbooks-citg/homepage
 - https://jupyterbook.org/, the system we're using for our books. It takes .md and .ipynb files and converts them into an online book (at the moment using Sphinx, another packages)
 - https://teachbooks.tudelft.nl/jupyter-book-manual, our manual, which explains how to do collaborative book-editing for eduactional purposes, our tooling, some examples and some editing tools.
-  https://github.com/TeachBooks/template, our template, which allows you to start your book within 10 clicks!
+- https://github.com/TeachBooks/template, our template, which allows you to start your book within 10 clicks!
 - https://github.com/TeachBooks, our GitHub organization you're looking at now, where we actually do stuff. This organization includes:
   - Repositories with tooling which can be imported into the book building process (sphinx extensions)
   - Tooling to use during book development
