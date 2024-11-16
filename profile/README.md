@@ -14,9 +14,9 @@ We're still learning how to organise this, so feel free to help us! Contact Robe
 Do you have skills on any of: python, git, github actions, shell commands, HTML, CSS, JavaScript latex, markdown, MyST, webservers, Wordpress?
 
 Awesome! To kickstart our collaboration, we've created an overview of the stuff we have:
-- https://teachbooks.tudelft.nl/, our website, which gives an overview of what we've to offer. Its raw HTML source files are actually on GitLab: https://gitlab.tudelft.nl/interactivetextbooks-citg/homepage
+- https://teachbooks.io/, our website, which gives an overview of what we've to offer. Its raw HTML source files are actually on GitLab: https://github.com/TeachBooks/TeachBooks.github.io
 - https://jupyterbook.org/, the system we're using for our books. It takes .md and .ipynb files and converts them into an online book (at the moment using Sphinx, another packages)
-- https://teachbooks.tudelft.nl/jupyter-book-manual, our manual, which explains how to do collaborative book-editing for eduactional purposes, our tooling, some examples and some editing tools.
+- https://teachbooks.io/manual, our manual, which explains how to do collaborative book-editing for eduactional purposes, our tooling, some examples and some editing tools.
 - https://github.com/TeachBooks/template, our template, which allows you to start your book within 10 clicks!
 - https://github.com/TeachBooks, our GitHub organization you're looking at now, where we actually do stuff. This organization includes:
   - Repositories with tooling which can be imported into the book building process (sphinx extensions)
@@ -32,6 +32,6 @@ Awesome! To kickstart our collaboration, we've created an overview of the stuff 
 Depending on the project you'll be working on, you'll get rights to the full organization or to specific repositories. Or fork a repo to start immediately!
 
 ## First steps
-If you've no idea where to start, but would like to contribute, we'd advise going through the 'Getting start' part our manual: https://teachbooks.tudelft.nl/jupyter-book-manual!
+If you've no idea where to start, but would like to contribute, we'd advise going through the 'Getting start' part our manual: https://teachbooks.io/manual!
 
 If you've some ideas to work on yourself, go ahead, fork a repo or reach out to use at TeachBooks@tudelft.nl. If you've no idea where to start, reach out to us as well (TeachBooks@tudelft.nl) and we'll find you a nice project which fits your skills.
