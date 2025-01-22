@@ -8,7 +8,7 @@ This organizations contains repositories to support and deploy various online in
 > 
 > We'd like to share our experiences and platforms with anyone, and to learn and promote your content and TeachBook features as well! So whether your teaching team is unfamiliar and lost in the nerdy world of interactive books, or whether you're an expert having created your own library of TeachBooks with custom features: share and collaborate with the biggest and most effective teaching team you were ever part of!
 
-We're still learning how to organise this, so feel free to help us! Contact Robert Lanzafame or Tom van Woudenberg via TeachBooks@tudelft.nl for additional information.
+We're still learning how to organise this, so feel free to help us! Contact the TeachBooks Development Team (Tom van Woudenberg, Robert Lanzafame, Dennis van den Ouden-van der Horst, Freek Pols) via info@teachbooks.io for additional information.
 
 ## Do you want to contribute?!
 Do you have skills on any of: python, git, github actions, shell commands, HTML, CSS, JavaScript latex, markdown, MyST, webservers, Wordpress?
@@ -22,11 +22,9 @@ Awesome! To kickstart our collaboration, we've created an overview of the stuff 
   - Repositories with tooling which can be imported into the book building process (sphinx extensions)
   - Tooling to use during book development
   - Tooling to improve the student experience
-  - Books (some are mirrored, those are actually located on GitLab but are mirrored to GitHub becuase of the extensive tooling)
   - Sandbox and some special repos used for testing
 - https://github.com/orgs/TeachBooks/discussions, discussions, where we discuss stuff which is very general, unrelated to specific project or not yet grown into a mature project. Start a discussion here to reach out to the community!
 - https://github.com/orgs/TeachBooks/projects, our projects, all the stuff we're planning or actually working on.
-- https://gitlab.tudelft.nl/interactivetextbooks-citg, our GitLab group with some books which were never transferred to GitHub
 - [Zenodo TeachBooks organization](https://zenodo.org/communities/teachbooks/records?q=&l=list&p=1&s=10&sort=newest), a Zenodo organization containing the presentation of public talks
 
 Depending on the project you'll be working on, you'll get rights to the full organization or to specific repositories. Or fork a repo to start immediately!
@@ -34,4 +32,4 @@ Depending on the project you'll be working on, you'll get rights to the full org
 ## First steps
 If you've no idea where to start, but would like to contribute, we'd advise going through the 'Getting start' part our manual: https://teachbooks.io/manual!
 
-If you've some ideas to work on yourself, go ahead, fork a repo or reach out to use at TeachBooks@tudelft.nl. If you've no idea where to start, reach out to us as well (TeachBooks@tudelft.nl) and we'll find you a nice project which fits your skills.
+If you've some ideas to work on yourself, go ahead, fork a repo or reach out to use at info@teachbooks.io. If you've no idea where to start, reach out to us as well (info@teachbooks.io) and we'll find you a nice project which fits your skills.
