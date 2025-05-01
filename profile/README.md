@@ -29,6 +29,8 @@ Awesome! To kickstart our collaboration, we've created an overview of the stuff 
 
 Depending on the project you'll be working on, you'll get rights to the full organization or to specific repositories. Or fork a repo to start immediately!
 
+More information on how to contribute can be found in [our contribution guidelines](https://github.com/TeachBooks/.github/blob/main/CONTRIBUTING.md)
+
 ## First steps
 If you've no idea where to start, but would like to contribute, we'd advise going through the 'Getting start' part our manual: https://teachbooks.io/manual!
 
