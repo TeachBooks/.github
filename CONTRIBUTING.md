@@ -41,6 +41,10 @@ The project file hierarchy should (at least) contain the following:
 - A src directory containing a subdirectory **with the same name as your package**. The subdirectory should contain the `__init__.py` and any other `.py` files.
 - A `pyproject.toml` file, which is the configuration file telling Python tools how to build your packages and what dependencies are needed when doing so. For more information about the `pyproject.toml` file, you can consult this [link](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/). Typically, this file looks as follows:
 
+<details>
+
+<summary>toml file used by TeachBooks</summary>
+  
 ```toml
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
@@ -64,6 +68,8 @@ requires-python = ">=3.10"
 version.source = "vcs"
 build.hooks.vcs.version-file = "src/<your-package-name>/_version.py"
 ```
+
+</details>
 
 - Optionally, you can include files such as the `README.md`, or `LICENSE`.
 
