@@ -72,7 +72,11 @@ build.hooks.vcs.version-file = "src/<your-package-name>/_version.py"
 - Fill in the name you wish to publish your new PyPI project under. This needs to correspond with the name value in your `pyproject.toml`. Then, fill in the GitHub repository owner’s name (org or user), repository name, and the name of the release workflow file under the `.github/` folder - in this case, this will be `python-publish.yml`.  Finally, add the name of the GitHub Environment (pypi) you’re going to set up under your repository. Then register the trusted publisher. 
 
 ### 3. Create a new GitHub Actions Workflow 
-Click the *Actions* tab in your repository, and then select *New workflow*. This will show several suggested workflow options. Navigate and find the *Publish Python Package*, and click on *Configure*. This will display a pre-filled workflow for publishing your package to PyPI. To extend the functionality to also creating GitHub releases whenever a new tag is pushed, you can replace the contents of the default `python-publish.yml` with the following:
+Click the *Actions* tab in your repository, and then select *New workflow*. This will show several suggested workflow options. Navigate and find the *Publish Python Package*, and click on *Configure*. This will display a pre-filled workflow for publishing your package to PyPI. To extend the functionality to also creating GitHub releases whenever a new tag is pushed, you can replace the contents of the default `python-publish.yml` with the following worflow:
+
+<details>
+
+<summary>Workflow used by TeachBooks</summary>
 
 ```yaml
 # This workflow will upload a Python Package using Twine when a release is created
@@ -209,6 +213,8 @@ jobs:
         --repo "$GITHUB_REPOSITORY"
 ```
 
+</details>
+
 Make sure to modify the environment url within the `publish-to-pypi` job to take the name of your package (should coincide with the name field from the `pyproject.toml` file). Also fill in the workflow name with the name of your project. 
 
 Once you’re done, press *Commit changes* to add the workflow to the repository. 
@@ -220,4 +226,4 @@ You're all set! This workflow will build the package on each push, and will publ
 For more detailed information regarding the publishing process, please consult this [link](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/).
 
 ## Releases and Versioning
-Semantic numbering is used: vA.B.C, where patches advance C and minor releases advance B.
+Semantic numbering is used: vA.B.C, where patches advance C and minor releases advance B. See https://semver.org/ for more information.
