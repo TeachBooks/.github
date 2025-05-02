@@ -32,15 +32,6 @@ The sections below outline the steps in each case.
 
 In case you feel like you’ve made a valuable contribution, but you don’t know how to write or run tests for it, or how to generate the documentation: don’t let this discourage you from making the pull request; we can help you! Just go ahead and submit the pull request, but keep in mind that you might be asked to append additional commits to your pull request.
 
-## You want to test your GitHub workflow
-To be written
-
-## You want to test your Sphinx extension
-To be written
-
-## You want to make a release for a sphinx extension
-To be written
-
 ## You want to publish your tool to PyPi
 You can publish your package to PyPI by making use of GitHub Actions. This involves multiple steps. 
 
@@ -64,7 +55,7 @@ authors = [
 description = "<Your description>"
 readme = "README.md"
 dependencies = [
-    “sphinx”,
+    "sphinx",
     "<other-package-dependencies>"
 ]
 requires-python = ">=3.10"
